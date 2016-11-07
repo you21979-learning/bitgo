@@ -1,0 +1,23 @@
+{
+  "name": "bitgo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bip39" : "",
+    "bitgo" : ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/you21979-learning/bitgo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/you21979-learning/bitgo/issues"
+  },
+  "homepage": "https://github.com/you21979-learning/bitgo#readme"
+}
