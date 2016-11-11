@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "bip39" : "",
+    "bitcoinjs-lib" : "",
     "bitgo" : ""
   },
   "repository": {
