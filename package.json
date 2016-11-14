@@ -7,9 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "bip39" : "",
-    "bitcoinjs-lib" : "",
-    "bitgo" : ""
+    "bip39" : "2.2.x",
+    "bitcoinjs-lib" : "2.3.x",
+    "notp" : "2.0.x",
+    "bitgo" : "2.0.x"
   },
   "repository": {
     "type": "git",
