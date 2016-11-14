@@ -49,6 +49,9 @@ const bitgo_multisig_2of3_create = (bitgo, label, userKey, backupKey) =>
                 return bitgo.wallets().add(options)
             })
         })
+const bitgo_multisig_balance = (bitgo, asset_type, wallet_id) =>
+    bitgo.wallets().get({type:asset_type, id: wallet_id}).
+        then(wallet => wallet.balance())
 
 const bitgo_multisig_2of3_send = (bitgo, asset_type, wallet_id, recipients, xprv) =>
     bitgo.wallets().
@@ -61,6 +64,7 @@ module.exports = {
     bitgo_access_token : bitgo_access_token,
     bitgo_multisig_2of3_create : bitgo_multisig_2of3_create,
     bitgo_multisig_2of3_send : bitgo_multisig_2of3_send,
+    bitgo_multisig_balance : bitgo_multisig_balance,
     convertKeychain : convertKeychain,
     convertPublicKeychain : convertPublicKeychain,
     getGoogleAuthOtp : getGoogleAuthOtp,
